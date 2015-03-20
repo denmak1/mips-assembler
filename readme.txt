@@ -12,6 +12,7 @@ the following program for execution:
     ./assembler [input-assembly-file] code.h
 
 The input-assembly-file is any file containing hopefully valid assembler code.
+Some samples are included.
 
 Next compile the final program:
     gcc -Wall -g -o exec_asm exec_asm.c
